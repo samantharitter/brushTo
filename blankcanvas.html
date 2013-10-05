@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>A Blank Canvas for testing</title>
+
+  <!-- CSS /-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/blankcanvas.css" rel="stylesheet">
+
+  <!-- import JS files /-->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" media="all"/>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- local JS files /-->
+  <script src="js/setup.js"></script>
+  <script src="js/ink.js"></script>
+
+</head>
+
+<body onload="load_page();">
+
+  <div class="container">
+	
+	<div class="row">
+      <div class="span12" style="height:50px;"></div>
+	</div>
+
+	<div class="row">
+
+      <div id="canvasContainer" class="span9">
+		<canvas id="canvas" height="500" width="700"></canvas>
+      </div>
+	  
+	  <div id="toolBox" class="span3">Tools</div>
+
+	</div>
+	<div id="dummyDiv">
+	  <audio src="pencil1.wav" controls="controls"></audio>
+	</div>
+  </div>
+  
+</body>
+
+
+</html>
